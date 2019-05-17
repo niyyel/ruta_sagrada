@@ -1,9 +1,10 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.djnig.tantamayo"
+        applicationId "com.depixel.web.tantamayo"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
@@ -40,4 +41,7 @@ dependencies {
 
     implementation 'com.android.support:cardview-v7:27.1.1'
     api 'com.android.support:recyclerview-v7:27.1.+'
+   // implementation 'com.google.firebase:firebase-messaging:17.0.0:15.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
 }

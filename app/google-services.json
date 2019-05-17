@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677188297136",
+    "firebase_url": "https://tantamayo-96bec.firebaseio.com",
+    "project_id": "tantamayo-96bec",
+    "storage_bucket": "tantamayo-96bec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677188297136:android:0ab0728b0107e699",
+        "android_client_info": {
+          "package_name": "com.depixel.web.tantamayo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677188297136-5t44i20ec4hvd2ircq82gnfpgb1a9aio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.depixel.web.tantamayo",
+            "certificate_hash": "ab0b91fabce7c185ec66c19a654b072ab941413e"
+          }
+        },
+        {
+          "client_id": "677188297136-o45eb5lu3f4uge2960a4kj1pgjka7ra4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHUif2lXMdvB1nB-ZfVUTkcUE6e4HL7KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677188297136-o45eb5lu3f4uge2960a4kj1pgjka7ra4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
