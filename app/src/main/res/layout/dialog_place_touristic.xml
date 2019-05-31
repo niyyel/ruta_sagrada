@@ -19,7 +19,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10px"
-            app:srcCompat="@drawable/site" />
+            app:srcCompat="@drawable/ruta2_isoj" />
 
         <TextView
             android:id="@+id/textViewPlace"

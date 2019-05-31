@@ -56,7 +56,10 @@ public class ArFragment extends Fragment {
         }
         web.getSettings().setDomStorageEnabled(true);
         web.getSettings().setJavaScriptEnabled( true );
-        web.loadUrl("https://teliportme.com/embed/1575507?ar=-10&sfc=t&lp=lt&ls=d&lz=50&lo=1");
+       // web.loadUrl("https://teliportme.com/embed/1575507?ar=-10&sfc=t&lp=lt&ls=d&lz=50&lo=1"); tingo bella durmiente
+        web.loadUrl("https://teliportme.com/embed/1594425?ar=-10&sfc=t&lp=lt&ls=d&lz=50&lo=1");
+
+
         return vx;
     }
 

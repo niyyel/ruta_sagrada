@@ -89,9 +89,10 @@ public class MainActivity extends AppCompatActivity
                         // Get new Instance ID token
                         String token = task.getResult().getToken();
                         //Toast.makeText(MainActivity.this, token, Toast.LENGTH_SHORT).show();
-                        Log.e("t:",""+token);
+                        Log.e("nigel",""+token);
                     }
                 });
+        Log.d("Instance ID",FirebaseInstanceId.getInstance().getId());
     }
 
     @Override

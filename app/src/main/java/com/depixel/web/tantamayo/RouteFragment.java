@@ -3596,23 +3596,34 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
         String name= marker.getTitle();
         casePlaceRoute1(name);
         casePlaceRoute2(name);
-        //casePlaceRoute3(name);
-        //casePlaceRoute4(name);
-        //casePlaceRoute5(name);
-       // casePlaceRoute6(name);
-       // casePlaceRoute7(name);
+        casePlaceRoute3(name);
+        casePlaceRoute4(name);
+        casePlaceRoute5(name);
+        casePlaceRoute6(name);
+        casePlaceRoute7(name);
        // casePlaceRoute8(name);
        // casePlaceRoute9(name);
     }
     public void casePlaceRoute9(String name){
         DescriptionPlaceClass des;
         switch(name){
-            //ruta 4
-            case "Huqlla wagra":
+            //ruta 9
+            case "Laguna Asiag":
                 des=PlaceDetailsRepository.getDescriptionPlace(6);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            default:
+            case "Tayta Mayo":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Laguna Arcuma":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Cuchimachay":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;     default:
                 // Console.WriteLine("Other");
                 break;
         }
@@ -3620,12 +3631,23 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
     public void casePlaceRoute8(String name){
         DescriptionPlaceClass des;
         switch(name){
-            //ruta 4
-            case "Huqlla wagra":
+            //ruta 8
+            case "Carpa":
                 des=PlaceDetailsRepository.getDescriptionPlace(6);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            default:
+            case "Criadero de Trucha":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Laguna de Carpa":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Pacharahuay":
+                des=PlaceDetailsRepository.getDescriptionPlace(6);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;    default:
                 // Console.WriteLine("Other");
                 break;
         }
@@ -3634,8 +3656,20 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
         DescriptionPlaceClass des;
         switch(name){
             //ruta 4
-            case "Huqlla wagra":
-                des=PlaceDetailsRepository.getDescriptionPlace(6);
+            case "Tecllo Cocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(33);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Jaracocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(34);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Asnacocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(35);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Mirador de Carpa":
+                des=PlaceDetailsRepository.getDescriptionPlace(36);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
             default:
@@ -3646,9 +3680,29 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
     public void casePlaceRoute6(String name){
         DescriptionPlaceClass des;
         switch(name){
-            //ruta 4
-            case "Huqlla wagra":
-                des=PlaceDetailsRepository.getDescriptionPlace(6);
+            //ruta 6
+            case "Shucsha":
+                des=PlaceDetailsRepository.getDescriptionPlace(27);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Silla del Inca":
+                des=PlaceDetailsRepository.getDescriptionPlace(28);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Ayllish Alta":
+                des=PlaceDetailsRepository.getDescriptionPlace(29);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Mirador del río Marañon":
+                des=PlaceDetailsRepository.getDescriptionPlace(30);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Ayllish Baja":
+                des=PlaceDetailsRepository.getDescriptionPlace(31);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Entierro de la Bruja":
+                des=PlaceDetailsRepository.getDescriptionPlace(32);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
             default:
@@ -3659,9 +3713,41 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
     public void casePlaceRoute5(String name){
         DescriptionPlaceClass des;
         switch(name){
-            //ruta 4
-            case "Huqlla wagra":
-                des=PlaceDetailsRepository.getDescriptionPlace(6);
+            //ruta 5
+            case "Alojamiento Rural":
+                des=PlaceDetailsRepository.getDescriptionPlace(18);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Laguna Huascacocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(19);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Miskicocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(20);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Angelcocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(21);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Huella de Serpiente":
+                des=PlaceDetailsRepository.getDescriptionPlace(22);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Mancacocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(23);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Rima Rima":
+                des=PlaceDetailsRepository.getDescriptionPlace(24);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "waswacocha":
+                des=PlaceDetailsRepository.getDescriptionPlace(25);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Selmin Granero":
+                des=PlaceDetailsRepository.getDescriptionPlace(26);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
             default:
@@ -3674,27 +3760,27 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
         switch(name){
             //ruta 4
             case "San Pedro de Pariarca":
-                des=PlaceDetailsRepository.getDescriptionPlace(8);
-                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
-                break;
-            case "Pariash":
-                des=PlaceDetailsRepository.getDescriptionPlace(9);
-                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
-                break;
-            case "Usuy Huayragh":
-                des=PlaceDetailsRepository.getDescriptionPlace(10);
-                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
-                break;
-            case "Llama Llama":
-                des=PlaceDetailsRepository.getDescriptionPlace(11);
-                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
-                break;
-            case "Japallan":
                 des=PlaceDetailsRepository.getDescriptionPlace(12);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            case "Laguna Blanca":
+            case "Pariash":
                 des=PlaceDetailsRepository.getDescriptionPlace(13);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Usuy Huayragh":
+                des=PlaceDetailsRepository.getDescriptionPlace(14);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Llama Llama":
+                des=PlaceDetailsRepository.getDescriptionPlace(15);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Japallan":
+                des=PlaceDetailsRepository.getDescriptionPlace(16);
+                verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
+                break;
+            case "Laguna Blanca":
+                des=PlaceDetailsRepository.getDescriptionPlace(17);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
             default:
@@ -3711,15 +3797,15 @@ public class RouteFragment extends Fragment implements OnMapReadyCallback, Googl
                 des=PlaceDetailsRepository.getDescriptionPlace(7);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            case "Ango":
+            case "Piruro I":
                 des=PlaceDetailsRepository.getDescriptionPlace(8);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            case "Piruro I":
+            case "Piruro II":
                 des=PlaceDetailsRepository.getDescriptionPlace(9);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
-            case "Piruro II":
+            case "Ango":
                 des=PlaceDetailsRepository.getDescriptionPlace(10);
                 verDetalle(des.place,des.imagenPlace,des.ubication, des.schedule,des.history,des.imagenPlace,des.access);
                 break;
